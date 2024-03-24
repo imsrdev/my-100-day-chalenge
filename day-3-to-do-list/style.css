@@ -107,7 +107,7 @@ ul li span {
 ul li span:hover {
   background: #edeef0;
 }
-@media (min-width: 480px) {
+@media (min-width: 380px) {
   .to-do-app {
     width: 100%;
     max-width: 460px;
