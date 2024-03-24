@@ -232,5 +232,14 @@ ul li span:hover {
     user-select: none;
     cursor: pointer;
     position: relative;
+  } button {
+    border: none;
+    outline: none;
+    padding: 14px 20px;
+    border-radius: 40px;
+    background-color: var(--bg-butten);
+    color: var(--font-color-btn);
+    font-size: 14px;
+    cursor: pointer;
   }
 }
