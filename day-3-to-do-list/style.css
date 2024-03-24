@@ -109,7 +109,7 @@ ul li span:hover {
 }
 @media (min-width: 380px) {
   .to-do-app {
-    width: 100%;
+    width: 90%;
     max-width: 460px;
     background-color: var(--bg-color);
     margin: 100px auto 20px;
@@ -127,7 +127,7 @@ ul li span:hover {
   button {
     border: none;
     outline: none;
-    padding: 14px 25px;
+    padding: 14px 20px;
     border-radius: 40px;
     background-color: var(--bg-butten);
     color: var(--font-color-btn);
