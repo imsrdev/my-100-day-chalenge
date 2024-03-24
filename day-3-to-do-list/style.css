@@ -234,15 +234,3 @@ ul li span:hover {
     position: relative;
   }
 }
-@media (min-width: 360px) {
-  button {
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    border-radius: 40px;
-    background-color: var(--bg-butten);
-    color: var(--font-color-btn);
-    font-size: 14px;
-    cursor: pointer;
-  }
-}
