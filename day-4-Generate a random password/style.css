@@ -70,3 +70,55 @@ body {
   cursor: pointer;
   margin-top: 20px;
 }
+@media (min-width: 380px) {
+  .container {
+    margin: 20% 5% 8% 7%;
+    width: 90%;
+    max-width: 350px;
+  }
+  .container .title-top {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .disply {
+    width: 90%;
+    margin-top: 30px;
+    background-color: var(--bg-disply);
+    color: var(--color-disply);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .disply img {
+    width: 25px;
+    cursor: pointer;
+  }
+  .disply input {
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+  }
+  .container button {
+    border: 0;
+    outline: 0;
+    background-color: var(--primery-color);
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .container button img {
+    width: 18px;
+    margin-right: 10px;
+  }
+}
+
