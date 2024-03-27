@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+:root {
+  --bg-color: #f0f0f0;
+  --border-color: #9fa4a8;
+  --font-Awesome-color-icon: #2ecc71;
+}
+body {
+  font-family: "shabnam", "Rubik", sans-serif;
+  background-color: var(--bg-color);
+}
+h1 {
+  margin: 50px 0 30px;
+  text-align: center;
+}
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.faq {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  transition: 0.3s ease;
+}
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.faq.active::before,
+.faq.active::after {
+  content: "\f075";
+  font-family: "font Awesome 5 free";
+  color: var(--font-Awesome-color-icon);
+  font-size: 10rem;
+  opacity: 0.2;
+  position: absolute;
+  z-index: 0;
+  top: 20px;
+  left: 20px;
+}
+.faq.active::after {
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+.faq-tittle {
+  margin: 0 35px 0 0;
+  flex-wrap: wrap;
+  width: 85%;
+}
+.faq-text {
+  margin: 20px 25px 0;
+  display: none;
+}
+.faq.active .faq-text {
+  display: block;
+}
+.faq-toggle {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  z-index: 222222;
+}
+.faq-toggle:focus {
+  outline: 0;
+}
+.faq-toggle .fa-times {
+  display: none;
+  color: #fff;
+}
+.faq.active .faq-toggle .fa-times {
+  display: block;
+}
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+.faq.active .faq-toggle {
+  background-color: #9fa4a8;
+}
+@media (max-width: 480px) {
+  .faq-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 380px) {
+  h1 {
+    margin: 50px 0 30px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .faq {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    padding: 25px;
+    transition: 0.3s ease;
+  }
+  .faq-tittle {
+    margin: 0 5px 0 0;
+    font-size: 16px;
+    flex-wrap: wrap;
+    width: 85%;
+  }
+  .faq-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .faq-toggle {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    padding: 0;
+    position: absolute;
+    top: 25px;
+    left: 18px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+  }
+}
