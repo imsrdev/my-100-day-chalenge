@@ -100,3 +100,6 @@ body {
   font-family: "Font Awesome 5 Free";
   color: #fff;
 }
+.my-Link-socialmedia:focus {
+  transform: scale(0.95);
+}
