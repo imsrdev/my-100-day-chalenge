@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+/* root setting */
+:root {
+  --bg-color: #4caf50;
+  --linl-post-color: #00c853;
+  --color-text: #424242;
+  --color-text-heding: #f5f5f5;
+  --text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --bg-posts: #e0e0e0;
+  --border-radius: 20px;
+}
+body {
+  background: var(--bg-color);
+}
+.container {
+  padding: 15px 9%;
+  padding-bottom: 100px;
+}
+.container .heading {
+  text-align: center;
+  padding-bottom: 15px;
+  color: var(--color-text-heding);
+  text-shadow: var(--text-shadow);
+  font-size: 40px;
+  margin-top: 40px;
+}
+.my-name {
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: center;
+  color: var(--color-text-heding);
+  text-shadow: var(--text-shadow);
+}
+
+.container .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+  color: var(--color-text);
+}
+.container .box-container .box-post {
+  box-shadow: var(--text-shadow);
+  background-color: var(--bg-posts);
+  border-radius: var(--border-radius);
+  text-align: center;
+  padding: 20px 15px;
+  flex-wrap: wrap;
+}
+
+.tittle-post,
+.post-name,
+.info-post,
+.link-post {
+  margin-bottom: 10px;
+}
+.link-post {
+  color: var(--linl-post-color);
+}
+.responsive-info {
+  color: red;
+  font-weight: bold;
+}
+.footer {
+  text-align: center;
+  color: var(--color-text-heding);
+  text-shadow: var(--text-shadow);
+  box-shadow: 1px 5px #ff3d00;
+  width: 100%;
+  height: 40vh;
+  font-size: 25px;
+  font-weight: 300;
+}
+.footer .links {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.my-Link-socialmedia {
+  padding: 15px 10px;
+  width: 5%;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--bg-posts);
+  color: var(--bg-posts);
+  font-size: 18px;
+}
+.my-Link-socialmedia .fa-brands {
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+}
