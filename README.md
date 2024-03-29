@@ -88,4 +88,11 @@
           <a href="https://imsrdev-faq-boxes.vercel.app/">link demo</a>
         </td>
       </tr>
+     <tr>
+        <td style="border: 1px solid #555">7</td>
+        <td style="border: 1px solid #555">Furniture Website</td>
+        <td style="border: 1px solid #555">
+          <a href="https://imsrdev-furniture-website.vercel.app/">link demo</a>
+        </td>
+      </tr>
     </table>
