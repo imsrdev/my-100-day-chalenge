@@ -7,6 +7,9 @@
   --color-nav: #000000;
   --color-nav-hovor: #008000;
 }
+body {
+  font-family: "poppins", sans-serif !important;
+}
 /* navbar top */
 .navbar-top {
   width: 100%;
@@ -139,3 +142,80 @@
   background-color: rgba(238, 224, 208);
 }
 /* card1 */
+/* card2 */
+.card img {
+  width: 100%;
+}
+.card#tpc {
+  box-shadow: 0 0 5px black;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.card#tpc:hover {
+  transform: translateY(-10px);
+}
+/* card2 */
+/* card3 */
+#btn3 button {
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+#btn3 button:hover {
+  background-color: var(--bg-coloe);
+}
+.albom-shop {
+  row-gap: 25px;
+}
+.albom-shop p {
+  row-gap: 25px;
+  font-weight: bold;
+}
+@media screen and (max-width: 895px) {
+  #btn3 button {
+    width: 100px;
+  }
+  .albom-shop h3 {
+    font-size: 18px;
+  }
+}
+/* card3 */
+/* about */
+#btn4 button {
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+#btn4 button:hover {
+  background-color: var(--bg-coloe);
+}
+/* about */
+/* footer */
+#footer {
+  width: 100%;
+  background-color: var(--color-nav);
+  margin-top: 50px;
+  color: var(--bg-coloe);
+}
+#footer h1 {
+  padding-top: 20px;
+  color: white;
+}
+.icons i {
+  color: var(--bg-coloe);
+  font-size: 30px;
+  cursor: pointer;
+}
+.coppriyte {
+  margin-top: 20px;
+}
