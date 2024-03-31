@@ -95,4 +95,11 @@
           <a href="https://imsrdev-furniture-website.vercel.app/">link demo</a>
         </td>
       </tr>
+      <tr>
+        <td style="border: 1px solid #555">8</td>
+        <td style="border: 1px solid #555">Calculator project</td>
+        <td style="border: 1px solid #555">
+          <a href="https://imsrdev-calculator-project.vercel.app/">link demo</a>
+        </td>
+      </tr>
     </table>
