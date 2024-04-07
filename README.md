@@ -109,4 +109,11 @@
           <a href="https://imdrdev-blurry-loading.vercel.app/">link demo</a>
         </td>
       </tr>
+      <tr>
+        <td style="border: 1px solid #555">10</td>
+        <td style="border: 1px solid #555">Scroll Animation</td>
+        <td style="border: 1px solid #555">
+          <a href="#">#</a>
+        </td>
+      </tr>
     </table>
