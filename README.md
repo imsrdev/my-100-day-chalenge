@@ -1,4 +1,4 @@
- <h2>100 day challenge coding with html css javascript</h2>
+ <h2>100 day challenge coding mini projects with html css javascript</h2>
     <p>
       I started a 100-day challenge to improve coding skills and better
       understand programming. All my daily project files will be uploaded to
