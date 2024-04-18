@@ -116,6 +116,20 @@
           <a href="#" target="_blank">#</a>
         </td>
       </tr>
+     <tr>
+        <td style="border: 1px solid #555">11</td>
+        <td style="border: 1px solid #555">Sound Board</td>
+        <td style="border: 1px solid #555">
+          <a href="#" target="_blank">#</a>
+        </td>
+      </tr>
+       <tr>
+        <td style="border: 1px solid #555">12</td>
+        <td style="border: 1px solid #555">email-subscribe</td>
+        <td style="border: 1px solid #555">
+          <a href="#" target="_blank">#</a>
+        </td>
+      </tr>
       <tr>
         <td style="border: 1px solid #555">11</td>
         <td style="border: 1px solid #555">Sound Board</td>
