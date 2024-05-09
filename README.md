@@ -140,7 +140,7 @@
         <td style="border: 1px solid #555">Scroll Animation</td>
         <td style="border: 1px solid #555">
           <a href="https://imsrdev-scroll-animation.vercel.app/" target="_blank"
-            >#</a
+            >link demo</a
           >
         </td>
       </tr>
@@ -149,7 +149,7 @@
         <td style="border: 1px solid #555">Sound Board</td>
         <td style="border: 1px solid #555">
           <a href="https://imsrdev-sound-board.vercel.app/" target="_blank"
-            >#</a
+            >link demo</a
           >
         </td>
       </tr>
@@ -165,7 +165,7 @@
         <td style="border: 1px solid #555">pricing-cards</td>
         <td style="border: 1px solid #555">
           <a href="https://imsrdev-pricing-cards.vercel.app/" target="_blank"
-            >#</a
+            >link demo</a
           >
         </td>
       </tr>
@@ -176,7 +176,7 @@
           <a
             href="https://imsrdev-random-choice-picker.vercel.app/"
             target="_blank"
-            >#</a
+            >link demo</a
           >
         </td>
       </tr>
