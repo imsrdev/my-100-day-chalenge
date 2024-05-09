@@ -1,4 +1,4 @@
- <h2>100 day challenge coding mini projects with html css javascript</h2>
+<h2>100 day challenge coding mini projects with html css javascript</h2>
     <p>
       I started a 100-day challenge to improve coding skills and better
       understand programming. All my daily project files will be uploaded to
@@ -13,7 +13,8 @@
     <p>This is the main repository for all of the projects in the course.</p>
     <span>brad travesy</span><br />
     <a
-      href="https://www.udemy.com/course/50-projects-50-days/?couponCode=GENAISALE24" target="_blank"
+      href="https://www.udemy.com/course/50-projects-50-days/?couponCode=GENAISALE24"
+      target="_blank"
       >Course Link</a
     >
     <br />
@@ -22,7 +23,8 @@
     <h5>30 Projects in 30 Days - HTML/CSS and JavaScript</h5>
     <p>from youtube playlist</p>
     <a
-      href="https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9" target="_blank"
+      href="https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9"
+      target="_blank"
       >Course Link</a
     >
     <hr />
@@ -36,28 +38,36 @@
         <td style="border: 1px solid #555">0</td>
         <td style="border: 1px solid #555">main-Challenge</td>
         <td style="border: 1px solid #555">
-          <a href="https://my-100-day-chalenge.vercel.app/" target="_blank">link demo</a>
+          <a href="https://my-100-day-chalenge.vercel.app/" target="_blank"
+            >link demo</a
+          >
         </td>
       </tr>
       <tr>
         <td style="border: 1px solid #555">1</td>
         <td style="border: 1px solid #555">Expanding Cards</td>
         <td style="border: 1px solid #555">
-          <a href="https://imsrdev-expanding-cards.vercel.app/" target="_blank">link demo</a>
+          <a href="https://imsrdev-expanding-cards.vercel.app/" target="_blank"
+            >link demo</a
+          >
         </td>
       </tr>
       <tr>
         <td style="border: 1px solid #555">2</td>
         <td style="border: 1px solid #555">Progress Steps</td>
         <td style="border: 1px solid #555">
-          <a href="https://imsrdev-progress-steps.vercel.app/" target="_blank">link demo</a>
+          <a href="https://imsrdev-progress-steps.vercel.app/" target="_blank"
+            >link demo</a
+          >
         </td>
       </tr>
       <tr>
         <td style="border: 1px solid #555">3</td>
         <td style="border: 1px solid #555">to-do-list</td>
         <td style="border: 1px solid #555">
-          <a href="https://imsrdev-to-do-list.vercel.app/" target="_blank">link demo</a>
+          <a href="https://imsrdev-to-do-list.vercel.app/" target="_blank"
+            >link demo</a
+          >
         </td>
       </tr>
       <tr>
@@ -67,7 +77,9 @@
           random password
         </td>
         <td style="border: 1px solid #555">
-          <a href="https://imsrdev-i-generate-a-random-password.vercel.app/" target="_blank"
+          <a
+            href="https://imsrdev-i-generate-a-random-password.vercel.app/"
+            target="_blank"
             >link demo</a
           >
         </td>
@@ -76,7 +88,9 @@
         <td style="border: 1px solid #555">5</td>
         <td style="border: 1px solid #555">Form Wave Animation</td>
         <td style="border: 1px solid #555">
-          <a href="https://imsrdev-form-wave-animation.vercel.app/" target="_blank"
+          <a
+            href="https://imsrdev-form-wave-animation.vercel.app/"
+            target="_blank"
             >link demo</a
           >
         </td>
@@ -85,49 +99,85 @@
         <td style="border: 1px solid #555">6</td>
         <td style="border: 1px solid #555">FAQ Boxes</td>
         <td style="border: 1px solid #555">
-          <a href="https://imsrdev-faq-boxes.vercel.app/" target="_blank">link demo</a>
+          <a href="https://imsrdev-faq-boxes.vercel.app/" target="_blank"
+            >link demo</a
+          >
         </td>
       </tr>
-     <tr>
+      <tr>
         <td style="border: 1px solid #555">7</td>
         <td style="border: 1px solid #555">Furniture Website</td>
         <td style="border: 1px solid #555">
-          <a href="https://imsrdev-furniture-website.vercel.app/" target="_blank">link demo</a>
+          <a
+            href="https://imsrdev-furniture-website.vercel.app/"
+            target="_blank"
+            >link demo</a
+          >
         </td>
       </tr>
       <tr>
         <td style="border: 1px solid #555">8</td>
         <td style="border: 1px solid #555">Calculator project</td>
         <td style="border: 1px solid #555">
-          <a href="https://imsrdev-calculator-project.vercel.app/" target="_blank">link demo</a>
+          <a
+            href="https://imsrdev-calculator-project.vercel.app/"
+            target="_blank"
+            >link demo</a
+          >
         </td>
       </tr>
-       <tr>
+      <tr>
         <td style="border: 1px solid #555">9</td>
         <td style="border: 1px solid #555">Blurry Loading</td>
         <td style="border: 1px solid #555">
-          <a href="https://imdrdev-blurry-loading.vercel.app/" target="_blank">link demo</a>
+          <a href="https://imdrdev-blurry-loading.vercel.app/" target="_blank"
+            >link demo</a
+          >
         </td>
       </tr>
       <tr>
         <td style="border: 1px solid #555">10</td>
         <td style="border: 1px solid #555">Scroll Animation</td>
         <td style="border: 1px solid #555">
-          <a href="#" target="_blank">#</a>
+          <a href="https://imsrdev-scroll-animation.vercel.app/" target="_blank"
+            >#</a
+          >
         </td>
       </tr>
-     <tr>
+      <tr>
         <td style="border: 1px solid #555">11</td>
         <td style="border: 1px solid #555">Sound Board</td>
         <td style="border: 1px solid #555">
-          <a href="#" target="_blank">#</a>
+          <a href="https://imsrdev-sound-board.vercel.app/" target="_blank"
+            >#</a
+          >
         </td>
       </tr>
-       <tr>
+      <tr>
         <td style="border: 1px solid #555">12</td>
         <td style="border: 1px solid #555">email-subscribe</td>
         <td style="border: 1px solid #555">
           <a href="#" target="_blank">#</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #555">13</td>
+        <td style="border: 1px solid #555">pricing-cards</td>
+        <td style="border: 1px solid #555">
+          <a href="https://imsrdev-pricing-cards.vercel.app/" target="_blank"
+            >#</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ffff">14</td>
+        <td style="border: 1px solid #ffff">Random-choice-picker</td>
+        <td style="border: 1px solid #ffff">
+          <a
+            href="https://imsrdev-random-choice-picker.vercel.app/"
+            target="_blank"
+            >#</a
+          >
         </td>
       </tr>
     </table>
