@@ -25,7 +25,10 @@ h3 {
 
 .container {
   width: 500px;
+  max-height: 300px; /* Set a maximum height */
+  overflow-y: auto; /* Add vertical scrollbar when needed */
 }
+
 
 textarea {
   border: none;
