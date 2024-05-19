@@ -180,4 +180,15 @@
           >
         </td>
       </tr>
+          <tr>
+        <td style="border: 1px solid #ffff">15</td>
+        <td style="border: 1px solid #ffff">rotating-navigation</td>
+        <td style="border: 1px solid #ffff">
+          <a
+            href="https://imsrdev-rotating-navigation.vercel.app/"
+            target="_blank"
+            >link demo</a
+          >
+        </td>
+      </tr>
     </table>
