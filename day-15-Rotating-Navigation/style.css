@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #333;
+  color: #222;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; */
+  overflow-x: hidden;
+  margin: 0;
+}
+.container {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+}
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+.circle-contaner {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+.circle {
+  background-color: #ff7979;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+.circle button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 28px;
+  color: #ffff;
+  cursor: pointer;
+}
+.circle button:focus {
+  outline: none;
+}
+.circle button#open {
+  left: 60%;
+}
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
+nav ul {
+  list-style: none;
+  padding-left: 30px;
+}
+nav ul li,
+a {
+  text-transform: uppercase;
+  color: #fafafa;
+  text-decoration: none;
+  margin: 40px 0;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in;
+}
+nav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+nav ul li + li {
+  margin-left: 15px;
+  transform: translateX(-110%);
+}
+nav ul li + li + li {
+  margin-left: 30px;
+  transform: translateX(-160%);
+}
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
+.content #dog img {
+  max-width: 100%;
+  width: 100%;
+  transform: translateX(-200%);
+}
+.content {
+  width: 100%;
+  margin: 50px auto;
+}
+.content h1 {
+  margin: 0;
+}
+.content small {
+  color: #555;
+  font-style: italic;
+}
+.content p {
+  color: #333;
+  line-height: 1.5;
+}
